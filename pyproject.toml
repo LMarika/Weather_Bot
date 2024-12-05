@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "convertor bot"
+package-mode = false
+version = "0.1.0"
+description = ""
+authors = ["LMarika <mari.fm.ry@yandex.ru>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytelegrambotapi = "^4.24.0"
+python-dotenv = "^1.0.1"
+telebot = "^0.0.5"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
